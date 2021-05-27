@@ -45,21 +45,7 @@ public class Csv<line> {
             ArrayList<AppData>appDataArrayList = new ArrayList<>();
             try {
                 BufferedReader bufferedReader = new BufferedReader(new FileReader("file.csv")){
-                    String line;
-                    try {
-                            if (charCode == in.read()) continue;
 
-                        } catch (IOException e) {
-                            e.printStackTrace();
-
-                            System.out.println(line);
-
-                        }
-                    }
-
-                    }catch (IOException e){
-                        e.printStackTrace();
-                    }
                 };
             };
         }
